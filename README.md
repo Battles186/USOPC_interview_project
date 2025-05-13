@@ -12,7 +12,8 @@ overcome, etc.
 + `report_sports_science/` contains all of the materials for a more extensive
 sports science analysis that describes and interprets the results of the
 analysis.
-+ `LoadandWellnessData.xlsx` is the provided data.
++ `LoadandWellnessData.xlsx` is the provided data; not included here to protect
+the privacy of the USOPC.
 + `Makefile` is a Makefile that allows for automated execution of the various
 parts of the analysis.
 + `REAMDE.md` is this document.
