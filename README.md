@@ -22,3 +22,8 @@ the variables of interest differently based on their nature and description.
 regression to the output of `analysis_weekly_workload.py`.
 + `util.py` is a utility module.
 
+The dashboard that provides interactive visualization of the analysis presented
+here can be accessed at:
+
+[https://dashboard-red-panda.reflex.run](https://dashboard-red-panda.reflex.run)
+

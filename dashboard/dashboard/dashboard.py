@@ -68,14 +68,15 @@ def index() -> rx.Component:
         rx.color_mode.button(position="top-right"),
         rx.vstack(
             rx.heading("Athlete Workload and Wellness Report", size="9"),
-            rx.text("Perry Battles, Hal H. Morris Human Performance Laboratories, Indiana University"),
+            rx.text("Perry Battles"),
+            rx.text("Hal H. Morris Human Performance Laboratories, Indiana University"),
             rx.text(
                 "Code available at ",
                 rx.link(
                     rx.code("https://github.com/Battles186/USOPC_interview_project.git"),
+                    href="https://github.com/Battles186/USOPC_interview_project.git",
                 ),
                 size="5",
-                href="https://github.com/Battles186/USOPC_interview_project.git",
             ),
             # rx.link(
             #     "Code available at ",
@@ -91,6 +92,7 @@ def index() -> rx.Component:
                     rx.tabs.trigger("By Player Group", value="1_by_player_group"),
                 ),
                 rx.tabs.content(
+                    rx.text("Below are histograms of each numeric variable in the data. None of the wellness variables passed the Shapiro-Wilk test for normality. Because most of them roughly follow a gamma distribution (or reversed gamma distribution), generalized linear modeling with the gamma family is employed (below)."),
                     rx.image(
                         src="images/eda/eda_hist_all.png",
                         width="800px",
@@ -99,6 +101,7 @@ def index() -> rx.Component:
                     value="0_histograms",
                 ),
                 rx.tabs.content(
+                    rx.text("Clear differences emerge for certain variables between player position groups. E.g., accelerations, decelerations, motivation."),
                     rx.image(
                         src="images/eda/eda_box_all_pos_group.png",
                         width="800px",
@@ -106,10 +109,10 @@ def index() -> rx.Component:
                     ),
                     value="1_by_player_group",
                 ),
+                default_value='0_histograms',
             ),
 
             rx.heading("Generalized Linear Modeling", size="7"),
-            rx.text("Model Fits"),
             rx.tabs.root(
                 rx.tabs.list(
                     rx.tabs.trigger("Fatigue", value="0_fatigue"),
@@ -120,29 +123,37 @@ def index() -> rx.Component:
                     rx.tabs.trigger("Soreness", value="5_workload_distance_sleep_soreness"),
                 ),
                 rx.tabs.content(
+                    rx.text("Sleep proves to be most strongly inversely associated with high fatigue levels."),
                     glm_results_delta('workload_sleep_fatigue'),
                     value="0_fatigue",
                 ),
                 rx.tabs.content(
+                    rx.text("Sleep and mood are strongly positively associated."),
                     glm_results_delta('workload_sleep_mood'),
                     value="1_mood",
                 ),
                 rx.tabs.content(
+                    rx.text("Similar to other variables, sleep and motivation are strongly positively associated."),
                     glm_results_delta('workload_sleep_motivation'),
                     value="2_motivation",
                 ),
                 rx.tabs.content(
+                    rx.text("Sleep appears to be inversely related to stress levels; although no causative claims can be made on the basis of the coefficient values, greater sleep being associated with lower stress levels is physiologically sound reasoning."),
                     glm_results_delta('workload_sleep_stress'),
                     value="3_stress",
                 ),
                 rx.tabs.content(
+                    rx.text("There is no workload variable that appears to affect sleep, with the exception that practice load may have an effect."),
                     glm_results('workload_sleep'),
                     value="4_sleep_disturbance",
                 ),
                 rx.tabs.content(
+                    rx.text(
+                        "Sleep is most strongly inversely associated with soreness of all the predictors."),
                     glm_results('workload_distance_sleep_soreness'),
                     value="5_workload_distance_sleep_soreness",
                 ),
+                default_value='0_fatigue',
             ),
 
             rx.heading("Conclusions", size="7"),

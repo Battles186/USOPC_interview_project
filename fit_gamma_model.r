@@ -99,7 +99,7 @@ names(df_pred_test) <- c('y_test', 'y_pred_test')
 #print(df_pred_test)
 
 # Predictions.
-png(paste(args_[1], 'scatter_pred_true.png', sep=''))
+png(paste(args_[1], 'scatter_pred_true.png', sep=''), units="in", width=5, height=5, res=300)
 p <- ggplot(df_pred_test, aes(log(y_test), y_pred_test)) + geom_point()
 if (length(args_) > 1) {
 	print("Overriding plot x axis limits...")
@@ -107,7 +107,7 @@ if (length(args_) > 1) {
 	p + lims(x=override_xlim) + xlab(paste("True Log(", outcome_label_text, ")", sep='')) + ylab(paste("Predicted ", outcome_label_text, sep=''))
 } else {
 	# https://stackoverflow.com/questions/11936339/replace-specific-characters-within-strings
-	p + xlab(paste("True Log(", outcome_label_text, ")", sep='')) + ylab(paste("Predicted ", outcome_label_text, sep=''))
+	p + xlab(paste("True Log(", outcome_label_text, ")", sep='')) + ylab(paste("Predicted Log( ", outcome_label_text, ')', sep=''))
 }
 dev.off()
 
