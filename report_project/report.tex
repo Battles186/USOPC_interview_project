@@ -1,0 +1,135 @@
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{supertabular}
+\usepackage{apacite}
+
+\title{USOPC Athlete Wellness and Load Interview Report}
+\author{Perry Battles}
+\date{May 2025}
+
+\begin{document}
+
+	\maketitle
+
+
+	\section{Key Takeaways}
+
+		\begin{itemize}
+			\item EDA demonstrated that average session heart rate and
+			practice load likely express much of the same information.
+			If collecting both is logistically intractable or difficult,
+			not much is lost by sacrificing one. Because of the familiarity
+			with heart rate data and zones, it may be more useful to present
+			heart rate data to coaches and athletes.
+			\item Sleep has by far the most outsized effect in mitigating
+			athlete wellness by reducing fatigue and stress and increasing
+			mood and motivation.
+			\item Workload does not appear to affect sleep quality within
+			the ranges in which it has been administered,
+			with the exception of a potential
+			slight effect for practice load.
+			\item Soreness was negatively associated with sleep to a much
+			greater degree than with any other variable.
+			Competition load did positively influence soreness.
+			\item Athletes that performed more strength and conditioning
+			in a given week experienced less stress (figure
+			and fatigue.
+			However, these effects are likely very slight and possibly
+			confounded by the positions of players engaging in the most
+			strength and conditioning also performing less other training.
+		\end{itemize}
+
+		Each of these points is treated much more extensively in the
+		extensive report, submitted alongside this document. For a
+		more complete treatment of the analytical methods and results,
+		please refer to it.
+
+	\section{Introduction}
+
+		This report is intended to be read by a sports science team to provide
+		an overview of key trends in the data and directions for further action
+		to facilitate athlete health and wellness and, by extension, performance.
+
+		First glances at the data provoked several interesting questions. Firstly,
+		since the athletes were aggregated into different position groups, were
+		any differences in workload or wellness data simply a function of group?
+		This question hasn't been answered extensively enough by the present
+		analysis, but my tentative conclusion is that, while there are likely strong
+		position-based trends as demonstrated by the exploratory data analysis,
+		there are probably also some outlier cases in different positions in which
+		a more nuanced model of workload and wellness is useful, and also some
+		conclusions that apply across groups.
+
+	\section{Methods}
+
+		\subsection{Exploratory Data Analysis}
+
+			EDA proceeded in several steps. The first consisted of simply visualizing
+			distributions of the data to determine what models and transformations
+			might be needed to make inferences on the basis of the data with some
+			conviction that the assumptions of the analysis are well-met. From there,
+			I looked at distributions of the variables by position group.
+
+		\subsection{Gamma Generalized Linear Modeling}
+
+			Because none of the wellness variables were normally distributed according
+			to the Shapiro-Wilk test, I moved forward with a generalized linear model,
+			which loosens some of the statistical assumptions of standard linear
+			regression. Because the outcome variables seemed to be approximately
+			gamma-distributed, I chose the gamma generalized linear model. I selected
+			some feature subsets that I thought would be informative in modeling
+			each outcome based on known physiological principles and relationships,
+			and moved forward.
+
+	\section{Challenges}
+
+		The primary challenge I ran into in analyzing these data was the fact that
+		there were matrix multiplication errors in the underlying \texttt{NumPy}
+		and R \texttt{glm} code that caused fits of the gamma generalized linear model
+		to fail. Getting around this took some doing; after reading a bit on
+		StackOverflow, it seemed to me that the primary issue was some large numbers
+		being produced in one or more steps of the math underlying the model fit.
+		After being uncertain how to address this in Python, I pivoted over to using
+		R's \texttt{glm} package, initially did not have much luck, but ultimately
+		stumbled upon the log linking function as the appropriate choice. This
+		allowed the models to converge and get a proper fit.
+
+	\section{Conclusions}
+
+		The greatest conclusion I've drawn from this analysis is that workload is
+		tremendously secondary to sleep for most intents and purposes. If we're
+		carefully trying to monitor athlete loading but we aren't attending to
+		sleep, we're probably not taking care of the big pillars supporting
+		performance. I could see this becoming particularly relevant during
+		travel, particularly where international competition is concerned.
+
+	\section{Directions for Future Work}
+
+		Originally, I wanted to have a pure Python analytical pipeline that performed
+		a grid search across several different models and hyperparameter combinations.
+		Some of these models (e.g., random forest regressors) don't produce coefficient
+		estimates in the traditional sense or may not necessarily make assumptions that
+		fit the data very well, but could still be very predictive. Others, like the
+		multilayer perceptron, could do a great job predicting values of the
+		outcome variable but might not necessarily be very readily interpretable.
+		However, there are ways around this: a few solutions that come to mind are
+		Shapley values, as well as visualizing outcome variable surfaces when varying
+		two inputs at a time while we hold the other predictors constant. One can
+		also use principal component analysis to find eigenvectors in the inputs,
+		reduce the input to be two-dimensional, and then visualize changes in the
+		outcome variable that way.
+
+		Another question I would like to more extensively answer is how much of
+		the variation in the wellness and workload variables simply depends upon
+		player position group. Although this may not change much from a modeling
+		standpoint, it could have some important practical applications, since a
+		player's position could be a good heuristic for how we need to approach
+		managing their workload. That being said, it could be that there are
+		underlying player positions that do not correspond to the given groups,
+		and discovering those could give us more insight into how to coach these
+		players.
+
+\end{document}
+

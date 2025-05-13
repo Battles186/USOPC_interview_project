@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{hinton2002stochastic}
+Geoffrey~E Hinton and Sam Roweis.
+\newblock Stochastic neighbor embedding.
+\newblock {\em Advances in neural information processing systems}, 15, 2002.
+
+\bibitem{otremba2022smartpitch}
+Stephen~Eugene Otremba~Jr.
+\newblock {\em SmartPitch: Applied machine learning for professional baseball
+  pitching strategy}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2022.
+
+\bibitem{vstrumbelj2014explaining}
+Erik {\v{S}}trumbelj and Igor Kononenko.
+\newblock Explaining prediction models and individual predictions with feature
+  contributions.
+\newblock {\em Knowledge and information systems}, 41:647--665, 2014.
+
+\end{thebibliography}

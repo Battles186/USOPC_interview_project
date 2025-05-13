@@ -1,0 +1,1 @@
+{"experiment": "workload_sleep_mood_delta", "rmse_train": 11.58365236958568, "rmse_test": 13.096569860475276, "r_test": 0.06984998257303938, "best_model": "SVR(kernel='linear')", "best_model_parameters": "{'estimator': SVR(kernel='linear')}"}

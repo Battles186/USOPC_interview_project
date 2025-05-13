@@ -1,0 +1,1 @@
+{"experiment": "workload_sleep_fatigue_delta", "rmse_train": 13.239340003289405, "rmse_test": 14.30848544666115, "r_test": 0.17865685595564643, "best_model": "SVR(kernel='linear')", "best_model_parameters": "{'estimator': SVR(kernel='linear')}"}

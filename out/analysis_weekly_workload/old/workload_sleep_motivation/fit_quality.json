@@ -1,0 +1,1 @@
+{"experiment": "workload_sleep_motivation", "rmse_train": 16.5310921079553, "rmse_test": 17.08441219774869, "r_test": 0.6242591875284739, "best_model": "BayesianRidge()", "best_model_parameters": "{'estimator': BayesianRidge()}"}

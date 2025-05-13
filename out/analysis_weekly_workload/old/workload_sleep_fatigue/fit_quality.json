@@ -1,0 +1,1 @@
+{"experiment": "workload_sleep_fatigue", "rmse_train": 12.855122857176546, "rmse_test": 14.216316567380161, "r_test": 0.5252731274113303, "best_model": "RandomForestRegressor(max_depth=3)", "best_model_parameters": "{'estimator': RandomForestRegressor(max_depth=3)}"}

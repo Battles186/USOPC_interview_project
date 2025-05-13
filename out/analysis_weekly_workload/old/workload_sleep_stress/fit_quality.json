@@ -1,0 +1,1 @@
+{"experiment": "workload_sleep_stress", "rmse_train": 17.290208214802007, "rmse_test": 17.600632774769196, "r_test": 0.39014367420197615, "best_model": "LinearRegression()", "best_model_parameters": "{'estimator': LinearRegression()}"}
