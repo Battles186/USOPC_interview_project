@@ -15,3 +15,11 @@ fit_gamma:
 	Rscript fit_gamma_model.r out/analysis_weekly_workload/workload_sleep_motivation/ "2.5" "5.0"
 	Rscript fit_gamma_model.r out/analysis_weekly_workload/workload_sleep_stress/ "1.0" "4.5"
 
+clean_rx_images:
+	rm -r dashboard/dashboard/assets/images/
+	rm -r dashboard/dashboard/assets/out/
+
+copy_rx_images:
+	cp -r images/ dashboard/assets/images/
+	cp -r out/ dashboard/assets/out/
+

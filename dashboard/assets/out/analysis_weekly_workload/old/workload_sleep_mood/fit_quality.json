@@ -1,0 +1,1 @@
+{"experiment": "workload_sleep_mood", "rmse_train": 10.920935005697933, "rmse_test": 11.638141473223566, "r_test": 0.6885581958779466, "best_model": "SVR(kernel='linear')", "best_model_parameters": "{'estimator': SVR(kernel='linear')}"}

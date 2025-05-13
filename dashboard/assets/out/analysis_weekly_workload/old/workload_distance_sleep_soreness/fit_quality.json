@@ -1,0 +1,1 @@
+{"experiment": "workload_distance_sleep_soreness", "rmse_train": 15.11801079229051, "rmse_test": 17.365747266804124, "r_test": 0.3492297802632861, "best_model": "RandomForestRegressor(max_depth=3)", "best_model_parameters": "{'estimator': RandomForestRegressor(max_depth=3)}"}
