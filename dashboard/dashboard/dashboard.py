@@ -163,11 +163,11 @@ def index() -> rx.Component:
                     content="EDA demonstrated that average session heart rate and practice load likely express much of the same information. If collecting both is logistically intractable or difficult, not much is lost by sacrificing one. Because of the familiarity with heart rate data and zones, it may be more useful to present heart rate data to coaches and athletes."
                 ),
                 rx.accordion.item(
-                    header="Sleep and athlete wellness",
+                    header="Sleep and Athlete Wellness",
                     content="Sleep has by far the most outsized effect in mitigating athlete wellness by reducing fatigue and stress and increasing mood and motivation.",
                 ),
                 rx.accordion.item(
-                    header="Workload and sleep quality",
+                    header="Workload and Sleep Quality",
                     content="Workload does not appear to affect sleep quality within the ranges in which it has been administered, with the exception of a potential slight effect for practice load.",
                 ),
                 rx.accordion.item(
