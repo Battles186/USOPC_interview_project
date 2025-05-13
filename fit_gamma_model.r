@@ -104,7 +104,7 @@ p <- ggplot(df_pred_test, aes(log(y_test), y_pred_test)) + geom_point()
 if (length(args_) > 1) {
 	print("Overriding plot x axis limits...")
 	print(override_xlim)
-	p + lims(x=override_xlim) + xlab(paste("True Log(", outcome_label_text, ")", sep='')) + ylab(paste("Predicted ", outcome_label_text, sep=''))
+	p + lims(x=override_xlim) + xlab(paste("True Log(", outcome_label_text, ")", sep='')) + ylab(paste("Predicted Log( ", outcome_label_text, ')', sep=''))
 } else {
 	# https://stackoverflow.com/questions/11936339/replace-specific-characters-within-strings
 	p + xlab(paste("True Log(", outcome_label_text, ")", sep='')) + ylab(paste("Predicted Log( ", outcome_label_text, ')', sep=''))
