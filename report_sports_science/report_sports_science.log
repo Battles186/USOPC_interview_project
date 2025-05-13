@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.24)  13 MAY 2025 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.24)  13 MAY 2025 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -181,22 +181,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
 
 
-LaTeX Warning: Reference `weekly_workload_sleep_stress_coef' on page 1 undefine
-d on input line 43.
-
-
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/cm-super/cm-super-ts1.enc}]
-<../images/eda/eda_hist_all.png, id=12, 462.528pt x 346.896pt>
+<../images/eda/eda_hist_all.png, id=11, 462.528pt x 346.896pt>
 File: ../images/eda/eda_hist_all.png Graphic file (type png)
 <use ../images/eda/eda_hist_all.png>
 Package pdftex.def Info: ../images/eda/eda_hist_all.png  used on input line 131
 .
 (pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
-<../images/eda/eda_box_all_pos_group.png, id=14, 867.24pt x 867.24pt>
+<../images/eda/eda_box_all_pos_group.png, id=13, 867.24pt x 867.24pt>
 File: ../images/eda/eda_box_all_pos_group.png Graphic file (type png)
 <use ../images/eda/eda_box_all_pos_group.png>
 Package pdftex.def Info: ../images/eda/eda_box_all_pos_group.png  used on input
@@ -209,7 +204,7 @@ Package pdftex.def Info: ../images/eda/eda_box_all_pos_group.png  used on input
 [3 <../images/eda/eda_hist_all.png>]
 
 [4 <../images/eda/eda_box_all_pos_group.png>]
-<../out/analysis_weekly_workload/workload_sleep_fatigue/coef.png, id=26, 361.35
+<../out/analysis_weekly_workload/workload_sleep_fatigue/coef.png, id=25, 361.35
 pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_fatigue/coef.png Graphic f
 ile (type png)
@@ -218,7 +213,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_fatigue
 /coef.png  used on input line 247.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_fatigue/scatter_pred_true.png, 
-id=27, 361.35pt x 361.35pt>
+id=26, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_fatigue/scatter_pred_true.
 png Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_fatigue/scatter_pred_true.p
@@ -226,7 +221,7 @@ ng>
 Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_fatigue
 /scatter_pred_true.png  used on input line 260.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
-<../out/analysis_weekly_workload/workload_sleep_fatigue_delta/coef.png, id=28, 
+<../out/analysis_weekly_workload/workload_sleep_fatigue_delta/coef.png, id=27, 
 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_fatigue_delta/coef.png Gra
 phic file (type png)
@@ -235,7 +230,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_fatigue
 _delta/coef.png  used on input line 275.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_fatigue_delta/scatter_pred_true
-.png, id=29, 361.35pt x 361.35pt>
+.png, id=28, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_fatigue_delta/scatter_pred
 _true.png Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_fatigue_delta/scatter_pred_
@@ -243,7 +238,7 @@ true.png>
 Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_fatigue
 _delta/scatter_pred_true.png  used on input line 286.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
-<../out/analysis_weekly_workload/workload_sleep_mood/coef.png, id=30, 361.35pt 
+<../out/analysis_weekly_workload/workload_sleep_mood/coef.png, id=29, 361.35pt 
 x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_mood/coef.png Graphic file
  (type png)
@@ -252,7 +247,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_mood/co
 ef.png  used on input line 301.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_mood/scatter_pred_true.png, id=
-31, 361.35pt x 361.35pt>
+30, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_mood/scatter_pred_true.png
  Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_mood/scatter_pred_true.png>
@@ -260,7 +255,7 @@ File: ../out/analysis_weekly_workload/workload_sleep_mood/scatter_pred_true.png
 Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_mood/sc
 atter_pred_true.png  used on input line 312.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
-<../out/analysis_weekly_workload/workload_sleep_mood_delta/coef.png, id=32, 361
+<../out/analysis_weekly_workload/workload_sleep_mood_delta/coef.png, id=31, 361
 .35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_mood_delta/coef.png Graphi
 c file (type png)
@@ -269,7 +264,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_mood_de
 lta/coef.png  used on input line 328.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_mood_delta/scatter_pred_true.pn
-g, id=33, 361.35pt x 361.35pt>
+g, id=32, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_mood_delta/scatter_pred_tr
 ue.png Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_mood_delta/scatter_pred_tru
@@ -277,7 +272,7 @@ e.png>
 Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_mood_de
 lta/scatter_pred_true.png  used on input line 339.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
-<../out/analysis_weekly_workload/workload_sleep_motivation/coef.png, id=34, 361
+<../out/analysis_weekly_workload/workload_sleep_motivation/coef.png, id=33, 361
 .35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_motivation/coef.png Graphi
 c file (type png)
@@ -286,7 +281,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_motivat
 ion/coef.png  used on input line 355.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_motivation/scatter_pred_true.pn
-g, id=35, 361.35pt x 361.35pt>
+g, id=34, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_motivation/scatter_pred_tr
 ue.png Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_motivation/scatter_pred_tru
@@ -295,7 +290,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_motivat
 ion/scatter_pred_true.png  used on input line 366.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_motivation_delta/coef.png, id=3
-6, 361.35pt x 361.35pt>
+5, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_motivation_delta/coef.png 
 Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_motivation_delta/coef.png>
@@ -303,7 +298,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_motivat
 ion_delta/coef.png  used on input line 382.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_motivation_delta/scatter_pred_t
-rue.png, id=37, 361.35pt x 361.35pt>
+rue.png, id=36, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_motivation_delta/scatter_p
 red_true.png Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_motivation_delta/scatter_pr
@@ -311,7 +306,7 @@ ed_true.png>
 Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_motivat
 ion_delta/scatter_pred_true.png  used on input line 393.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
-<../out/analysis_weekly_workload/workload_sleep_stress/coef.png, id=38, 361.35p
+<../out/analysis_weekly_workload/workload_sleep_stress/coef.png, id=37, 361.35p
 t x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_stress/coef.png Graphic fi
 le (type png)
@@ -320,7 +315,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_stress/
 coef.png  used on input line 409.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_stress/scatter_pred_true.png, i
-d=39, 361.35pt x 361.35pt>
+d=38, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_stress/scatter_pred_true.p
 ng Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_stress/scatter_pred_true.pn
@@ -328,7 +323,7 @@ g>
 Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_stress/
 scatter_pred_true.png  used on input line 420.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
-<../out/analysis_weekly_workload/workload_sleep_stress_delta/coef.png, id=40, 3
+<../out/analysis_weekly_workload/workload_sleep_stress_delta/coef.png, id=39, 3
 61.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_stress_delta/coef.png Grap
 hic file (type png)
@@ -337,7 +332,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_stress_
 delta/coef.png  used on input line 436.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_sleep_stress_delta/scatter_pred_true.
-png, id=41, 361.35pt x 361.35pt>
+png, id=40, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep_stress_delta/scatter_pred_
 true.png Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_sleep_stress_delta/scatter_pred_t
@@ -345,7 +340,7 @@ rue.png>
 Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep_stress_
 delta/scatter_pred_true.png  used on input line 447.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
-<../out/analysis_weekly_workload/workload_sleep/coef.png, id=42, 361.35pt x 361
+<../out/analysis_weekly_workload/workload_sleep/coef.png, id=41, 361.35pt x 361
 .35pt>
 File: ../out/analysis_weekly_workload/workload_sleep/coef.png Graphic file (typ
 e png)
@@ -353,7 +348,7 @@ e png)
 Package pdftex.def Info: ../out/analysis_weekly_workload/workload_sleep/coef.pn
 g  used on input line 534.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
-<../out/analysis_weekly_workload/workload_sleep/scatter_pred_true.png, id=43, 3
+<../out/analysis_weekly_workload/workload_sleep/scatter_pred_true.png, id=42, 3
 61.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_sleep/scatter_pred_true.png Grap
 hic file (type png)
@@ -417,7 +412,7 @@ rue.png (PNG copy)>]
 [23 <../out/analysis_weekly_workload/workload_sleep/scatter_pred_true.png (PNG 
 copy)>]
 <../out/analysis_weekly_workload/workload_distance_sleep_soreness/coef.png, id=
-105, 361.35pt x 361.35pt>
+104, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_distance_sleep_soreness/coef.png
  Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_distance_sleep_soreness/coef.png>
@@ -426,7 +421,7 @@ Package pdftex.def Info: ../out/analysis_weekly_workload/workload_distance_slee
 p_soreness/coef.png  used on input line 570.
 (pdftex.def)             Requested size: 341.43306pt x 341.43344pt.
 <../out/analysis_weekly_workload/workload_distance_sleep_soreness/scatter_pred_
-true.png, id=106, 361.35pt x 361.35pt>
+true.png, id=105, 361.35pt x 361.35pt>
 File: ../out/analysis_weekly_workload/workload_distance_sleep_soreness/scatter_
 pred_true.png Graphic file (type png)
 <use ../out/analysis_weekly_workload/workload_distance_sleep_soreness/scatter_p
@@ -440,12 +435,7 @@ p_soreness/scatter_pred_true.png  used on input line 581.
 (PNG copy)>]
 
 [25 <../out/analysis_weekly_workload/workload_distance_sleep_soreness/scatter_p
-red_true.png (PNG copy)>]
-
-LaTeX Warning: Reference `weekly_workload_sleep_stress_coef' on page 26 undefin
-ed on input line 629.
-
-(./report_sports_science.bbl
+red_true.png (PNG copy)>] (./report_sports_science.bbl
 
 [26])
 
@@ -454,33 +444,25 @@ ed on input line 629.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2541 strings out of 475171
- 49108 string characters out of 5767095
- 447925 words of memory out of 5000000
- 25549 multiletter control sequences out of 15000+600000
- 563941 words of font info for 53 fonts, out of 8000000 for 9000
+ 2538 strings out of 475171
+ 49052 string characters out of 5767095
+ 447890 words of memory out of 5000000
+ 25547 multiletter control sequences out of 15000+600000
+ 563633 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,6n,65p,322b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-di
-st/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on report_sports_science.pdf (27 pages, 1927239 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
+share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on report_sports_science.pdf (27 pages, 1917560 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 152 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
